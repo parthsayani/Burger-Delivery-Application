@@ -7,7 +7,7 @@ import classes from './CheckoutSummary.css';
 const checkoutSummary = (props) => {
     return (
         <div className={classes.CheckoutSummary}>
-            <h1>Here's your Burger!</h1>
+            <h3>Here is your burger and scroll down after clicking the CONTINUE button below the block</h3>
             <div style={{width: '100%', margin: 'auto'}}>
                 <Burger ingredients={props.ingredients}/>
             </div>
